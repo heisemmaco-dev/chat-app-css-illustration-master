@@ -67,17 +67,26 @@
     background: linear-gradient( 40deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%) 
      );
 
-     min-height: 40vh;
+     /* min-height: 40vh;
      min-width:250px;
      position: absolute;
      border-radius: 0  0 300px 0 ;
      z-index: -2;
+ */
+ position: absolute;
+ height: 55%;
+ width: 650px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    z-index: -1;
+    border-radius: 0 0 50vmax 50vmax
   }
   .background_color_down {
     background:  hsla(264, 100%, 61%, 0.062);
 
      height: 400px;
-     width:250px;
+     width:300px;
      position: absolute;
      right: 0;
      bottom: 0;
@@ -86,6 +95,7 @@
   }
 
 .mobile_phone_container {
+    margin-top: 40px;
     max-width: 260px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -308,9 +318,9 @@ section {
     color: var(--Very-Dark-Desaturated-Violet);
   }
   section p {
-    font-size: 1.2rem;
-    line-height: 35px;
-    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 28px;
+    
   }
 
 main {
@@ -340,5 +350,9 @@ main {
     border-radius: 1000px 0 0 ;
     width: 350px;
     height: 550px;
+  }
+.mobile_phone_container { margin-top: 0; margin-right: 40px;}
+  section {
+    text-align: left;
   }
 }
